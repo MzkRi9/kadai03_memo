@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Yusei+Magic&family=Zen+Kaku+Gothic+New&family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+    <title>IKI - Ren Nagase</title>
+</head>
+<body>
+    <header>
+        <div id="icon"><img src="./img/00_icon.jpg" style="height: 40px; border-radius:50%;"></div>
+        <div id="logo"><img src="./img/00_logo.png" style="height: 70px;"></div>
+        <div id="alert"><img src="./img/00_alert.png" style="height: 25px; "></div>
+    </header>
+
+    <main>
+        <div class="slider">
+           <img class="slideimg" src="./img/slide01.jpg">
+           <img class="slideimg" src="./img/slide02.jpg">
+           <img class="slideimg" src="./img/slide03.jpg">
+        </div>
+        <h3>ながちゃんについて</h3>
+
+        <div class="post">
+            <div>
+                Time:
+                <input type="date" id="date-input" style="margin-left: 5px; width: 120px;">
+                <input type="time" id="start-time" name="start-time" value="09:00" style="margin-left: 5px;"> - 
+                <input type="time" id="end-time" name="end-time" value="10:00">
+            </div>
+            <div style="margin-top: 10px;">
+                <textarea id="new-post">新しい情報を追加...</textarea>
+            </div>
+            <div style="text-align: right;">
+                <button id="save">投稿</button>
+            </div>
+        </div>
+
+        <div style="text-align: left; margin-top: 30px;">
+            <img src="./img/08_day_black.png" style="height: 20px; margin: 0 12px;">
+            <img src="./img/09_week_gray.png" style="height: 20px; margin: 0 12px;">
+            <img src="./img/10_month_gray.png" style="height: 20px; margin: 0 12px;">
+        </div>
+
+        <hr>
+
+        <div id="post-view">
+            <div class="post-time"></div>
+            <textarea class="post-content" readonly></textarea>
+            <div style="text-align: right;">
+                <!-- <img src="./img/11_edit_black.png" class="edit" style="height: 18px; margin: 5px 8px;"> -->
+                <img src="./img/12_delete_black.png" class="delete" style="height: 18px; margin: 5px 8px;">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <ul>
+            <li><img src="./img/01_daily_black.png" style="height: 25px;"></li>
+            <li><img src="./img/02_space_gray.png" style="height: 25px;"></li>
+            <li><img src="./img/03_fun_gray.png" style="height: 25px;"></li>
+            <li><img src="./img/04_ticket_gray.png" style="height: 25px;"></li>
+            <li><img src="./img/05_shop_gray.png" style="height: 25px;"></li>
+        </ul>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/function.js"></script>
+</body>
+</html>
