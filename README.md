@@ -5,7 +5,7 @@
 【卒制の一部】推しの情報をみんなで書き込むメモパッド
 
 ## ③DEMO
-
+https://mzkri9.github.io/kadai03_memo/
 
 ## ④作ったアプリケーション用のIDまたはPasswordがある場合
 none
