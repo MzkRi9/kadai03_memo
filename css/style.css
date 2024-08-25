@@ -34,9 +34,7 @@ header {
 }
 
 main {
-    margin-top: 110px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 110px auto;
     width: 350px;
     text-align: center;
 }
@@ -126,6 +124,7 @@ footer {
     width: 100%;
     text-align: center;
     justify-items: space-around;
+    background-color: #F8F7F1;
 }
 
 ul {
