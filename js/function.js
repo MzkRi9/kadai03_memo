@@ -1,11 +1,3 @@
-//情報入力
-// 0.テキストエリアに入力する際に元々の文字が消えて、これから入力する文字の色が黒になる
-$("#new-post").on("click",function(){
-    $("#new-post").html("");
-    $("#new-post").css({'color':'black'});
-});
-
-//1.投稿クリックイベント
 //投稿ボタンをクリックしたら
 
 $("#save").on("click",function(){
