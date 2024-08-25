@@ -41,11 +41,8 @@ $("#save").on("click",function(){
     //post-viewを表示する
     $("#post-view").fadeIn(200);
 
-    //new-postの内容を最初に戻す
-    //テキストを変えたい・・・・・
-
-    //文字色を変える
-    $("#new-post").css({"color":"#a9a9a9"});
+    //new-postの中身を削除
+    $("#new-post").val("");
 
 });
 
